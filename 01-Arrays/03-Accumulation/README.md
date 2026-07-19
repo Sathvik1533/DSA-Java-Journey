@@ -1,39 +1,45 @@
-# Arrays — Accumulation
-
-## Concept
-
-Building a result incrementally while traversing values.
-
-## Pattern
-
-Initialize an accumulator, update it for each relevant value, then return or record it.
+# Accumulation Pattern
 
 ## Recognition Keywords
 
-Sum, total, count, product, aggregate, running value.
+- Sum
+- Total
+- Average
+- Count
+- Product
 
-## Story
+## Goal
 
-Keep a running notebook total as each receipt is processed.
+Continuously update one variable while traversing the array.
 
-## Common Mistakes
+## Golden Rules
 
-- Wrong initial value
-- Overflow risk
-- Updating in the wrong order
+- Initialize correctly.
+- Update every iteration.
+- Print after traversal.
 
-## Time Complexity
+## Identity Element
 
-Typical full pass: `O(n)`.
+Addition → 0
 
-## Space Complexity
+## Complexity
 
-Typical running accumulator: `O(1)`.
+Time : O(n)
+
+Space : O(1)
 
 ## Future Connections
 
-Running sum, prefix sum, sliding window.
+Accumulation
+↓
 
-## Revision Notes
+Running Sum
+↓
 
-Status: not started.
+Prefix Sum
+↓
+
+Sliding Window
+↓
+
+Kadane
