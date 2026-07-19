@@ -1,12 +1,15 @@
-public class PrintMultiplesOfX {
-    public static void main(String[] args) {
-        int x = 3;
-        int[] arr = {5, 12, 7, 20, 3, 15, 18, 10};
-
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % x == 0) {
-                System.out.println(arr[i]);
-            }
-        }
+public class PrintMultipleOfX {
+  public static void main(String a[]) {
+    int x=3;
+    int[] arr = {5, 12, 7, 20, 3, 15};
+    if(x==0){
+      System.out.println("x cannot be 0");
+      return;
     }
+    for (int i = 0; i <arr.length; i++) {
+      if(arr[i]%x==0){
+        System.out.println(arr[i]);
+      }
+    }
+}
 }
