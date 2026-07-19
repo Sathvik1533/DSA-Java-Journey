@@ -1,61 +1,134 @@
-# Traversal Pattern
+# Traversal Thinking
 
-## Recognition Keywords
+## Goal
+
+Traversal means visiting array elements in a controlled order.
+
+This is the foundation of almost every array algorithm.
+
+---
+
+# Recognition Keywords
 
 - Print
 - Visit
 - Traverse
 - Iterate
-- Process every element
+- Scan
+- Process
+- Filter
 
 ---
 
-## Goal
+# Core Idea
 
-Visit every valid element exactly once.
+Every traversal consists of four independent parts:
 
----
+1. Initialization (Where do I start?)
+2. Condition (When do I stop?)
+3. Work (What do I do?)
+4. Update (How do I move?)
 
-## Golden Rules
-
-- Number of iterations = arr.length
-- Last valid index = arr.length - 1
-- Empty array → 0 iterations
-- Visit every valid index exactly once
+Changing any one of these changes the traversal behavior.
 
 ---
 
-## Complexity
+# Problems Completed
 
-Time : O(n)
-
-Space : O(1)
+- [x] Print Array
+- [x] Print Reverse
+- [x] Print Alternate (Even Indices)
+- [x] Print Odd Indices
+- [x] Print Positive Numbers
+- [x] Print Negative Numbers
+- [x] Print Elements Greater Than X
+- [x] Print Elements Less Than X
+- [x] Print Multiples of X
 
 ---
 
-## Future Connections
+# Patterns Learned
+
+## Normal Traversal
+
+Start from index 0.
+
+Move one step at a time.
+
+---
+
+## Reverse Traversal
+
+Start from the last index.
+
+Move backwards.
+
+---
+
+## Step Traversal
+
+Move by more than one index.
+
+Example:
+
+i += 2
+
+---
+
+## Filtered Traversal
+
+Visit every element.
+
+Process only those satisfying a condition.
+
+Examples:
+
+- Positive numbers
+- Negative numbers
+- Greater than X
+- Less than X
+- Multiples of X
+
+---
+
+# Time Complexity
+
+Most traversal problems:
+
+Time: O(n)
+
+Space: O(1)
+
+Already optimal because every element must be visited.
+
+---
+
+# Future Connections
 
 Traversal
 ↓
-Sum
+Accumulation
+
+Traversal
 ↓
-Maximum
+Comparison
+
+Traversal
 ↓
-Minimum
+Searching
+
+Traversal
 ↓
 Running Sum
+
+Traversal
 ↓
 Sliding Window
+
+Traversal
 ↓
-Kadane
+Two Pointers
+
+Traversal
 ↓
 Hashing
-
----
-
-## Problems
-
-- ✅ Print Array
-- ⬜ Print Even
-- ⬜ Print Odd
-- ⬜ Reverse Traversal
