@@ -12,3 +12,4 @@ public class PrintAlternate {
       System.out.println(arr[i]);
 }
 } 
+}
