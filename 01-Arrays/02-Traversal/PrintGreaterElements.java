@@ -7,5 +7,5 @@ public class PrintGreaterElement {
         System.out.println(arr[i]);
       }
     }
-}
+  }
 }
