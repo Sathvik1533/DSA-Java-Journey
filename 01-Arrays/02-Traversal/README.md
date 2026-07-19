@@ -1,39 +1,61 @@
-# Arrays — Traversal
-
-## Concept
-
-Visiting array elements in a defined order.
-
-## Pattern
-
-Iterate over the required range while maintaining valid index boundaries.
+# Traversal Pattern
 
 ## Recognition Keywords
 
-Visit every element, print, scan, iterate, forward, reverse.
+- Print
+- Visit
+- Traverse
+- Iterate
+- Process every element
 
-## Story
+---
 
-Walk through a row of lockers one position at a time.
+## Goal
 
-## Common Mistakes
+Visit every valid element exactly once.
 
-- Incorrect loop bounds
-- Skipping the first or last value
-- Using values where indices are needed
+---
 
-## Time Complexity
+## Golden Rules
 
-Full traversal: `O(n)`.
+- Number of iterations = arr.length
+- Last valid index = arr.length - 1
+- Empty array → 0 iterations
+- Visit every valid index exactly once
 
-## Space Complexity
+---
 
-Basic traversal: `O(1)` auxiliary space.
+## Complexity
+
+Time : O(n)
+
+Space : O(1)
+
+---
 
 ## Future Connections
 
-Accumulation, comparison, frequency, two pointers.
+Traversal
+↓
+Sum
+↓
+Maximum
+↓
+Minimum
+↓
+Running Sum
+↓
+Sliding Window
+↓
+Kadane
+↓
+Hashing
 
-## Revision Notes
+---
 
-Status: in progress.
+## Problems
+
+- ✅ Print Array
+- ⬜ Print Even
+- ⬜ Print Odd
+- ⬜ Reverse Traversal
